@@ -309,6 +309,19 @@ function reverseInteger(num) {
  *   4916123456789012 => false
  */
 function isCreditCardNumber( /* ccn */ ) {
+    //   const cn = String(ccn);
+    //   let sum = 0;
+    //   const parity = cn.length;
+    //   for (let i = 0; i < parity; i += 1) {
+    //     if (i % 2 === parity) {
+    //       sum += Number(cn[i]);
+    //     } else if (Number(cn[i]) > 4) {
+    //       sum += 2 * Number(cn[i]) - 9;
+    //     } else {
+    //       sum += 2 * Number(cn[i]);
+    //     }
+    //   }
+    //   return sum % 10 === 0;
     throw new Error('Not implemented');
 }
 
